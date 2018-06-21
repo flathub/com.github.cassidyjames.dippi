@@ -7,11 +7,7 @@
     "command": "com.github.cassidyjames.dippi",
     "build-options": {
         "cflags": "-O2",
-        "cxxflags": "-O2",
-        "env": {
-            "PKG_CONFIG_GOBJECT_INTROSPECTION_1_0_GIRDIR": "/app/share/gir-1.0",
-            "PKG_CONFIG_GOBJECT_INTROSPECTION_1_0_TYPELIBDIR": "/app/lib/girepository-1.0"
-        }
+        "cxxflags": "-O2"
     },
     "finish-args": [
         /* X11 + XShm */
