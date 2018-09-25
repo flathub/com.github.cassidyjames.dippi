@@ -1,6 +1,7 @@
 {
     "app-id": "com.github.cassidyjames.dippi",
  	"base": "io.elementary.Loki.BaseApp",
+ 	"base-version": "stable",
     "runtime": "org.freedesktop.Platform",
     "sdk": "org.freedesktop.Sdk",
     "runtime-version": "1.6",
@@ -27,6 +28,10 @@
                 "type": "archive",
                 "url": "https://github.com/cassidyjames/dippi/archive/2.7.0.tar.gz",
                 "sha256": "539460ac74775c8f98c62b61164587ac0eeebd2ffc89b81ed8bf8cf48aa01c42"
+            },
+            {
+                "type": "patch",
+                "path": "elementary-theme.patch"
             }]
         }
     ]
