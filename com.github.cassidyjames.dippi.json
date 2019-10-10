@@ -1,26 +1,22 @@
 {
     "app-id": "com.github.cassidyjames.dippi",
- 	"base": "io.elementary.BaseApp",
- 	"base-version": "juno",
+    "base": "io.elementary.BaseApp",
+    "base-version": "juno-19.08",
     "runtime": "org.freedesktop.Platform",
     "sdk": "org.freedesktop.Sdk",
-    "runtime-version": "18.08",
+    "runtime-version": "19.08",
     "command": "com.github.cassidyjames.dippi",
     "finish-args": [
         /* X11 + XShm */
         "--share=ipc", "--socket=x11",
         /* Wayland */
-        "--socket=wayland",
-        /* dconf */
-        "--filesystem=xdg-run/dconf", "--filesystem=~/.config/dconf:ro",
-        "--talk-name=ca.desrt.dconf", "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
+        "--socket=wayland"
     ],
-    "modules": [
-        {
-            "name": "dippi",
-            "buildsystem": "meson",
-            "config-opts": ["--buildtype=release"],
-            "sources": [{
+    "modules": [{
+        "name": "dippi",
+        "buildsystem": "meson",
+        "config-opts": ["--buildtype=release"],
+        "sources": [{
                 "type": "archive",
                 "url": "https://github.com/cassidyjames/dippi/archive/2.7.3.tar.gz",
                 "sha256": "f11fba48e2dba490b404574027c18e2c8f45b1965df8d5ae512ebe0abae9900e"
@@ -28,7 +24,7 @@
             {
                 "type": "patch",
                 "path": "elementary-theme.patch"
-            }]
-        }
-    ]
+            }
+        ]
+    }]
 }
