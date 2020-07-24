@@ -18,8 +18,8 @@
         "config-opts": ["--buildtype=release"],
         "sources": [{
                 "type": "archive",
-                "url": "https://github.com/cassidyjames/dippi/archive/2.7.3.tar.gz",
-                "sha256": "f11fba48e2dba490b404574027c18e2c8f45b1965df8d5ae512ebe0abae9900e"
+                "url": "https://github.com/cassidyjames/dippi/archive/2.7.4.tar.gz",
+                "sha256": "5a052afea8a05115ae4668ccb93af5f2af05b577806bdf67cd5b2f0b97903bd0"
             },
             {
                 "type": "patch",
