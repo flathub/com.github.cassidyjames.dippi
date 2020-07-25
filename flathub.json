@@ -1,3 +1,4 @@
 {
-  "end-of-life": "This application is no longer maintained on Flathub..."
+  "end-of-life": "This application is no longer maintained on Flathub...",
+  "skip-appstream-check": true
 }
