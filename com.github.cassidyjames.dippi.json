@@ -15,7 +15,7 @@
         "config-opts": ["--buildtype=release"],
         "sources": [{
             "type": "git",
-            "url": "https://github.com/cassidyjames/plausible.git",
+            "url": "https://github.com/cassidyjames/dippi.git",
             "tag": "4.0.0",
             "commit": "5a7811f91e3991de8ea0f672e3938ca5a28c7589"
         }]
