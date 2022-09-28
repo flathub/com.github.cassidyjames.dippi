@@ -1,7 +1,7 @@
 {
     "app-id": "com.github.cassidyjames.dippi",
     "runtime" : "org.gnome.Platform",
-    "runtime-version": "42",
+    "runtime-version": "43",
     "sdk": "org.gnome.Sdk",
     "command": "com.github.cassidyjames.dippi",
     "finish-args": [
@@ -17,8 +17,8 @@
         "sources": [{
             "type": "git",
             "url": "https://github.com/cassidyjames/dippi.git",
-            "tag": "4.0.0",
-            "commit": "5a7811f91e3991de8ea0f672e3938ca5a28c7589"
+            "tag": "4.0.1",
+            "commit": "d59bef14b68132bf80d27c5a9111f6345f02bba5"
         }]
     }]
 }
