@@ -17,8 +17,8 @@
         "sources": [{
             "type": "git",
             "url": "https://github.com/cassidyjames/dippi.git",
-            "tag": "4.0.4",
-            "commit": "0d1223df5839a78548e69f508fd6199b2454c991"
+            "tag": "4.0.5",
+            "commit": "9d6b32db8f577c9d54c2bae23927c79a449088d3"
         }]
     }]
 }
