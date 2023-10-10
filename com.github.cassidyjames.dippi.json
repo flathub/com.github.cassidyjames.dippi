@@ -1,14 +1,15 @@
 {
     "app-id": "com.github.cassidyjames.dippi",
     "runtime" : "org.gnome.Platform",
-    "runtime-version": "44",
+    "runtime-version": "45",
     "sdk": "org.gnome.Sdk",
     "command": "com.github.cassidyjames.dippi",
     "finish-args": [
         "--share=ipc",
         "--socket=fallback-x11",
         "--socket=wayland",
-        "--device=dri"
+        "--device=dri",
+        "--share=ipc"
     ],
     "modules": [{
         "name": "dippi",
@@ -17,8 +18,8 @@
         "sources": [{
             "type": "git",
             "url": "https://github.com/cassidyjames/dippi.git",
-            "tag": "4.0.5",
-            "commit": "9d6b32db8f577c9d54c2bae23927c79a449088d3"
+            "tag": "4.0.6",
+            "commit": "1f5c8a7c80b0a81fc9e9313496dd72530a599dda"
         }]
     }]
 }
