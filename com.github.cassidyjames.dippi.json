@@ -1,29 +1,35 @@
 {
-  "app-id": "com.github.cassidyjames.dippi",
-  "runtime" : "org.gnome.Platform",
-  "runtime-version": "49",
-  "sdk": "org.gnome.Sdk",
-  "command": "com.github.cassidyjames.dippi",
-  "finish-args": [
-    "--share=ipc",
-    "--socket=fallback-x11",
-    "--socket=wayland",
-    "--device=dri",
-    "--share=ipc"
-  ],
-  "modules": [{
-    "name": "dippi",
-    "buildsystem": "meson",
-    "config-opts": ["--buildtype=release"],
-    "sources": [{
-      "type": "git",
-      "url": "https://github.com/cassidyjames/dippi.git",
-      "tag": "4.1.0",
-      "commit": "f83f342b753dc854dcbbf5d0522924273b3c388d",
-      "x-checker-data": {
-        "type": "git",
-        "tag-pattern": "^([\\d.]+)$"
-      }
-    }]
-  }]
+    "app-id": "com.github.cassidyjames.dippi",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "49",
+    "sdk": "org.gnome.Sdk",
+    "command": "com.github.cassidyjames.dippi",
+    "finish-args": [
+        "--share=ipc",
+        "--socket=fallback-x11",
+        "--socket=wayland",
+        "--device=dri",
+        "--share=ipc"
+    ],
+    "modules": [
+        {
+            "name": "dippi",
+            "buildsystem": "meson",
+            "config-opts": [
+                "--buildtype=release"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/cassidyjames/dippi.git",
+                    "tag": "4.1.1",
+                    "commit": "a3f228ff04a919e4eda1061664587da8b7bfdc5e",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^([\\d.]+)$"
+                    }
+                }
+            ]
+        }
+    ]
 }
